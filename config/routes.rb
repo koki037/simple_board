@@ -4,4 +4,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+
+     #ルートurlはpostsコントローラーのindexを呼んでください
+     root to: "posts#index"
 end
